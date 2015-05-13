@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="delegating\Caller.cs" />
+    <Compile Include="delegating\SuperDelegate.cs" />
+    <Compile Include="delegating\CoolDelegate.cs" />
+    <Compile Include="delegating\SimpleDelegate.cs" />
     <Compile Include="getSet\CoolGetSet.cs" />
     <Compile Include="getSet\SimpleGetSet.cs" />
     <Compile Include="getSet\SuperGetSet.cs" />
@@ -50,6 +54,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

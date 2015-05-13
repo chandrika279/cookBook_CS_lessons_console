@@ -1,10 +1,7 @@
-﻿using BaseSamples.getSet;
+﻿using System;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using BaseSamples.delegating;
+using BaseSamples.getSet;
 
 namespace BaseSamples
 {
@@ -12,6 +9,7 @@ namespace BaseSamples
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("End ... ");
             Console.ReadKey();
         }
     }
