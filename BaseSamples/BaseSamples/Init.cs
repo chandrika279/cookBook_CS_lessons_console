@@ -2,6 +2,7 @@
 
 using BaseSamples.delegating;
 using BaseSamples.getSet;
+using BaseSamples.extends;
 
 namespace BaseSamples
 {

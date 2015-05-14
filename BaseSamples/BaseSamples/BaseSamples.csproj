@@ -45,6 +45,7 @@
     <Compile Include="delegating\SuperDelegate.cs" />
     <Compile Include="delegating\CoolDelegate.cs" />
     <Compile Include="delegating\SimpleDelegate.cs" />
+    <Compile Include="extends\SimpleExtending.cs" />
     <Compile Include="getSet\CoolGetSet.cs" />
     <Compile Include="getSet\SimpleGetSet.cs" />
     <Compile Include="getSet\SuperGetSet.cs" />
