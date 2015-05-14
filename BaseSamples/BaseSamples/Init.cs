@@ -3,6 +3,7 @@
 using BaseSamples.delegating;
 using BaseSamples.getSet;
 using BaseSamples.extends;
+using BaseSamples.polymorphism;
 
 namespace BaseSamples
 {
