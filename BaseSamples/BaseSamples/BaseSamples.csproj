@@ -52,6 +52,7 @@
     <Compile Include="Init.cs" />
     <Compile Include="polymorphism\SimplePolymorph.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="statics\Variables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
