@@ -2,7 +2,7 @@
 
 namespace BaseSamples.extends
 {
-    class SimpleExtending
+    private class SimpleExtending // если стоит пометка sealed, то мы не можем наследоваться от этого класса
     {
         protected String _lastname = "Ber";
 
@@ -11,7 +11,7 @@ namespace BaseSamples.extends
             Console.WriteLine(msg);
         }
 
-        public string Move(int param)
+        public string Move(int param) // если стоит пометка sealed, то мы не можем переопределять этот метод в дочернем классе
         {
             return "This is method param: " + param;
         }
