@@ -2,7 +2,7 @@
 
 namespace BaseSamples.extends
 {
-    private class SimpleExtending // если стоит пометка sealed, то мы не можем наследоваться от этого класса
+    public class SimpleExtending // если стоит пометка sealed, то мы не можем наследоваться от этого класса
     {
         protected String _lastname = "Ber";
 
