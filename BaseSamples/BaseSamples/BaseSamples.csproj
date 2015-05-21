@@ -50,6 +50,8 @@
     <Compile Include="getSet\SimpleGetSet.cs" />
     <Compile Include="getSet\SuperGetSet.cs" />
     <Compile Include="Init.cs" />
+    <Compile Include="interfaces\Program.cs" />
+    <Compile Include="interfaces\Student.cs" />
     <Compile Include="polymorphism\SimplePolymorph.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="statics\Variables.cs" />
